@@ -5,3 +5,7 @@ ul li {
 .radio{
    margin-right: 20px;
 }
+
+#check{
+    font-size: smaller;
+}

@@ -1,0 +1,11 @@
+ul li {
+    list-style: none;
+}
+
+.radio{
+   margin-right: 20px;
+}
+
+#check{
+    font-size: smaller;
+}

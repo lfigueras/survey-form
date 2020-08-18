@@ -1,11 +1,96 @@
-ul li {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255);
+}
+
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+.main-form {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: teal;
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.form-group {
+    padding: 5px;
+    margin: 5px;
+    font-size: medium;
+}
+
+.form-input {
+    margin: 5px;
+}
+
+.form-textbox {
+    display: block;
+    width: 100%;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: 1px;
+    font-size: inherit;
+    color: rgba(0, 0, 0);
+    height: 35px;
+    outline: none;
+}
+
+.form-textbox:focus, .form-textarea:focus{
+    box-shadow: 0 0 0 2.5px rgb(81, 81, 216);
+}
+
+.select-option {
+    color: rgba(0, 0, 0);
+}
+
+select:invalid {
+    color: rgba(142, 142, 142);
+}
+
+.clue {
+    font-size: smaller;
+}
+
+.form-radio {
+    margin-right: 1px;
+}
+
+
+.form-checkbox-list li {
     list-style: none;
 }
 
-.radio{
-   margin-right: 20px;
+.form-checkbox {
+    margin-right: 3px;
 }
 
-#check{
-    font-size: smaller;
+.form-textarea {
+    width: 100%;
+    padding: 2px 3px;
+    border-radius: 5px;
+    font-size: inherit;
+    color: rgba(0, 0, 0);
+    resize: vertical;
+    outline: none;
 }
+
+.submit-button {
+    background-color: forestgreen;
+    width: 100%;
+    height: 40px;
+    border: 1px;
+    border-radius: 5px;
+    font-size: inherit;
+}
+
+
+

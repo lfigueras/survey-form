@@ -11,7 +11,7 @@
 
 <body>
     <div class="main-form">
-        <form>
+        <form action="thankyou.html" target="_blank">
 
             <div class="form-group">
                 <label for="name">Name</label>
@@ -39,7 +39,7 @@
                     <option value="Other">Other</option>
                 </select>
             </div>
-            
+
             <div class="radio-form">
                 <p>Would you recommend freeCodeCamp to a friend?</p>
                 <div>
@@ -70,7 +70,6 @@
                     </form>
                 </div>
             </div>
-
             <div class="checkboxes">
                 <label>What would you like to see improved? <span id="check">(Check all that apply)</span></label>
                 <ul class="list">
@@ -87,7 +86,19 @@
                     <li><input type="checkbox" class="radio">Additional Courses</li>
                 </ul>
             </div>
+            <div class="comments_suggestions">
+
+                <label> Any comments or suggestions? </label> <br>
+                <input type="text" name='comments' id="comments" class="form-input" />
+            </div>
+            <br>
+            
+            <div class=submission>
+                <input type="submit" value="Submit" name='form-input button' id="submit" class="submit-button" />
+            </div>
+
         </form>
     </div>
 </body>
+
 </html>

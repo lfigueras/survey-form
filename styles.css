@@ -9,7 +9,7 @@
 
 body{
     background-image: url('https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
 
 }
@@ -35,7 +35,7 @@ body{
 .form-textbox {
     display: block;
     width: 100%;
-    padding: 3px 5px;
+    padding: 3px 7px;
     border-radius: 5px;
     border: 1px;
     font-size: inherit;
@@ -44,7 +44,8 @@ body{
     outline: none;
 }
 
-.form-textbox:focus, .form-textarea:focus{
+.form-textbox:focus, 
+.form-textarea:focus{
     box-shadow: 0 0 0 2.5px rgb(81, 81, 216);
 }
 
@@ -64,7 +65,6 @@ select:invalid {
     margin-right: 1px;
 }
 
-
 .form-checkbox-list li {
     list-style: none;
 }
@@ -75,11 +75,12 @@ select:invalid {
 
 .form-textarea {
     width: 100%;
-    padding: 2px 3px;
+    padding: 3px 7px;
     border-radius: 5px;
     font-size: inherit;
     color: rgba(0, 0, 0);
     resize: vertical;
+    min-height: 120px;
     outline: none;
 }
 

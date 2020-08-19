@@ -46,6 +46,10 @@ body{
     outline: none;
 }
 
+label {
+    font-weight: bold;
+}
+
 .form-textbox:focus, 
 .form-textarea:focus{
     box-shadow: 0 0 0 2.5px rgb(81, 81, 216);

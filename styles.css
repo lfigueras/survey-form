@@ -1,13 +1,71 @@
-ul li {
-    list-style: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    color: black;
+}
+h1{
+    font-weight: normal;
 }
 
-.radio{
-   margin-right: 20px;
+body{
+    background-image: url("50-Beautiful-and-Minimalist-Presentation-Backgrounds-08.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.main-form {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: teal;
+    background: rgba(0, 0, 0, 0.425);
+    max-width: 700px;
+    border-radius: 10px;
 }
 
-#check{
+.form-group {
+    padding: 5px;
+    margin: 5px;
+    font-size: medium;
+}
+
+.form-input {
+    margin: 5px;
+}
+
+.form-textbox {
+    display: block;
+    width: 100%;
+    padding: 3px 7px;
+    border-radius: 5px;
+    border: 1px;
+    font-size: inherit;
+    color: rgba(0, 0, 0);
+    height: 35px;
+    outline: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-textbox:focus, 
+.form-textarea:focus{
+    box-shadow: 0 0 0 2.5px rgb(81, 81, 216);
+}
+
+.select-option {
+    color: rgba(0, 0, 0);
+}
+
+select:invalid {
+    color: rgba(142, 142, 142);
+}
+
+.clue {
     font-size: smaller;
+
 }
 
 .option {
@@ -24,3 +82,48 @@ ul li {
     outline: none;
     overflow: hidden;
 }
+
+    font-style: italic;
+}
+
+.form-radio {
+    margin-right: 1px;
+}
+
+.form-checkbox-list li {
+    list-style: none;
+}
+
+.form-checkbox {
+    margin-right: 3px;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-size: inherit;
+    color: rgba(0, 0, 0);
+    resize: vertical;
+    min-height: 120px;
+    outline: none;
+}
+
+.submit-button {
+    background-color: rgb(55, 184, 216);
+    width: 100%;
+    height: 40px;
+    border: 1px;
+    border-radius: 5px;
+    font-size: inherit;
+}
+
+ul li{
+    list-style: none;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
